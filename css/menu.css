@@ -1,0 +1,113 @@
+/* #chk-burger {
+  display : none;
+}
+
+.entete__nav{
+    position: fixed;
+    top: 30px;
+    right: -130px;
+    width: 300px;
+    /* 2rem = 2*14px *
+    font-size: 14px;
+}
+
+.entete__nav a {
+    font-size: medium;
+    text-decoration: none;
+}
+
+.entete__nav a:hover{
+    color: aqua;
+}
+
+.navigation, #chk-burger{
+    display: none;
+    position: fixed;
+    top: 50px;
+    right: 10px;
+}
+
+.navigation__bouton{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+
+#chk-burger:checked ~ .navigation{
+    display: block;
+    transform: translateX(0);
+}
+
+.navigation a{
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 10px;
+    font-size: 30px;
+    color : black;
+}
+
+.navigation{
+    position: fixed;
+    top : 40px;
+    right : 10px;
+    width: 150px;
+    height: 300px;
+    background-color: rgba(61, 0, 29, 0.396);
+    transform: translateX(120%);
+   /*  
+   transition: transform 1s linear; 
+   transition: transform 1s ease-in-out; *
+
+    transition: transform 1s cubic-bezier(.96,.96,.44,.44);
+
+} */
+
+#chk-burger {
+  display : none;
+
+
+}
+
+/* https://cubic-bezier.com/ */
+.navigation{
+    position: fixed;
+    top : 40px;
+    right : 10px;
+    margin-top: 10px;
+    height: 930px;
+    width: 200px;
+    background-color: rgba(61, 0, 29, 0.396);
+    transform: translateX(120%);
+   /*  
+   transition: transform 1s linear; 
+   transition: transform 1s ease-in-out; */
+
+    transition: transform 1s cubic-bezier(.96,.96,.44,.44);
+
+}
+.navigation__bouton {
+    position : fixed;
+    top : 10px;
+    right : 10px;
+}
+#chk-burger:checked ~ .navigation{
+    transform: translateX(0);
+}
+.navigation a{
+    text-decoration: none;
+    display: block;
+    color : black;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.menu__burger{
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.582), rgba(255, 255, 255, 0));
+    width: 150px;
+    height: 45px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+

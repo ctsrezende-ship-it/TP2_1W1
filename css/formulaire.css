@@ -1,0 +1,38 @@
+.formulaire{
+    border: 1px solid black;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.formulaire__div{
+    margin: 20px 0;
+}
+
+.formulaire__label{
+    color: rgb(165, 28, 131);
+    display: block;
+}
+
+.formulaire__input{
+    color: rgb(246, 135, 218);
+    margin: 10px 0;
+}
+
+.formulaire__input.formulaire__input:checker{
+    background-color: red;
+}
+
+p{
+    color: rgb(165, 28, 131);
+}
+
+label{
+    color: rgb(246, 135, 218);
+    display: block;
+}
+
+
+::placeholder{
+    color: rgb(246, 135, 218);
+}
+
