@@ -213,7 +213,7 @@ caption{
 
 /* ////////////////////////////////////////////// Article */
 
-h4{
+/* h4{
     font-size: 20px;
     text-align: center;
     margin: 30px;
@@ -223,6 +223,10 @@ h4{
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
+} */
+
+.trois {
+    min-height: 100px;
 }
 
 .article{
@@ -230,6 +234,191 @@ h4{
     font-size: 50px;
     text-align: center;
     padding: 30px;
+}
+
+.fleurs{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.pivoine, .rosier, .dalhia, .geranium{
+    justify-content: flex-start;
+    display: flex;
+    flex: 1 0 348px;
+    flex-wrap: wrap;
+    min-height: 170px;
+    padding: 5px;
+    margin: 2px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+/* .pivoine{
+    align-items: center;
+    display: flex;
+    flex: 1 0 348px;
+    min-height: 170px;
+    padding: 5px;
+    margin: 2px;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+} */
+
+.rosier{
+    /* align-items: center;
+    display: flex;
+    flex: 1 0 348px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 2px;
+    margin-top: 10px;
+    border-radius: 10px;
+    min-height: 170px; */
+    margin-right: 10px;
+}
+
+/* .dalhia{
+    align-items: center;
+    display: flex;
+    flex: 1 0 348px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 2px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    min-height: 170px;
+} */
+
+.geranium{
+    /* align-items: center;
+    display: flex;
+    flex: 1 0 348px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 2px;
+    margin-top: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    min-height: 170px; */
+    margin-right: 10px;
+}
+
+
+
+.texte{
+    width: 49%;
+}
+
+figure{
+    width: 50%;
+    display: inline;
+}
+
+figcaption{
+    display: inline;
+}
+
+.img{
+    margin: 0;
+    padding: 0;
+    /* max-height: 30vh;
+    max-width: 30vh; */
+    object-fit: cover;
+}
+
+.img__pivoine{
+    padding-top: 100px;
+    margin-left: 15px;
+    margin-right: 19px;
+    transform: rotate(90deg);
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+}
+
+.img__rosier{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    padding-top: 40px;
+    margin-left: 25px;
+    /* max-width: 10%;
+    max-height: 5%; */
+}
+
+.img__dalhia{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+.img__geranium{
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    /* transform: rotate(90deg); */
+    padding-top: 40px;
+    margin-left: 15px;
+    margin-right: 19px;
+}
+
+.principal__article{
+    flex: 1 0 348px;
+    background-color: rgba(255, 255, 255, 0.266);
+    height: 130px;
+    padding: 5px;
+    margin: 2px;
+    border-radius: 10px;
+}
+
+.principal__date{
+    font-style: italic;
+    margin-left: 6px;
+}
+
+.principal__date__droite{
+    font-style: italic;
+    margin-left: 6px;
+    text-align: right;
+}
+
+.principal__h3{
+    font-size: 25px;
+}
+
+.principal__h3__droite{
+    font-size: 25px;
+    text-align: right;
+}
+
+.principal__p{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 6px;
+    font-size: 15px;
+    /* width: 50%; */
+}
+
+.principal__p__droite{
+    text-align: right;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 6px;
+    font-size: 15px;
+}
+
+.principal__h2{
+    font-size: 30px;
+    margin-bottom: 0;
 }
 /* ////////////////////////////////////////////// Colloration des sections */
 
@@ -310,4 +499,6 @@ address{
     width: 500px;
 
     padding-right: 30px;
+    flex-wrap: wrap;
+    display: flex;
 }
