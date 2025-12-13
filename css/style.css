@@ -22,7 +22,11 @@ body{
     padding-bottom: 10px;
 }
 
-
+.centre{
+    background-color: rgba(255, 255, 255, 0.671);
+    max-width: 1100px;
+    margin: 0 auto;
+}
 /* ////////////////////////////////////////////// Hero */
 
 a{
@@ -139,12 +143,6 @@ figure > img {
     padding: 30px;
 }
 
-.centre{
-    background-color: rgba(255, 255, 255, 0.671);
-    max-width: 1100px;
-    margin: 0 auto;
-}
-
 .inscription{
     font-size: 20px;
     width: 250px;
@@ -173,12 +171,14 @@ figure > img {
     color: rgba(255, 255, 255, 0);
 }
 
-/* ////////////////////////////////////////////// Tableau */
-
-.center{
+.centre__inscription{
+    background-color: rgba(255, 255, 255, 0.671);
     max-width: 1100px;
     margin: 0 auto;
+    padding: 15px;
 }
+
+/* ////////////////////////////////////////////// Tableau */
 
 table{
     border: 1px solid #aaa;
@@ -219,6 +219,13 @@ tfoot{
 
 caption{
     font-size: 2rem;
+}
+
+.centre__tableau{
+    background-color: rgba(255, 255, 255, 0.671);
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 15px;
 }
 
 /* ////////////////////////////////////////////// Article */
